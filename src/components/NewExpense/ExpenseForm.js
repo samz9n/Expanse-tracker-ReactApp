@@ -8,7 +8,7 @@ export const ExpenseForm = () => {
     const [enteredDate, setEnteredDate] = useState('');
     
     const titleChangeHandler = (event) => {
-        setEnteredTitle(e.target.value)
+        setEnteredTitle(event.target.value)
     }
     const amountChangeHandler = (event) => {
         setEnteredAmount(event.target.value);
